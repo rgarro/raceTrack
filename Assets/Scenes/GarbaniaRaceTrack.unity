@@ -834,6 +834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966437823}
   - component: {fileID: 1966437824}
+  - component: {fileID: 1966437825}
   m_Layer: 0
   m_Name: BatComputer
   m_TagString: Untagged
@@ -867,3 +868,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a8ab3094d5414325a3d0ebe303657f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1966437825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966437822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a6786f2ca747465bad60b776cd1ea4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RestartIcon: {fileID: 2800000, guid: b28c05effa976466cb494b556365ee50, type: 3}
+  IconX: 10
+  IconY: 10
+  IconWidth: 45
+  IconHeight: 45
+  windowX: 20
+  windowY: 20
+  windowWidth: 300
+  windowHeight: 300
