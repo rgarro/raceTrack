@@ -693,6 +693,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: solidWorksGoKartTest
       objectReference: {fileID: 0}
+    - target: {fileID: 2542998023456168351, guid: 209a8620419ab4be7900233db914e5da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2542998023456168351, guid: 209a8620419ab4be7900233db914e5da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2542998023456168351, guid: 209a8620419ab4be7900233db914e5da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2542998023456168351, guid: 209a8620419ab4be7900233db914e5da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2542998023456168351, guid: 209a8620419ab4be7900233db914e5da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3962013001507225212, guid: 209a8620419ab4be7900233db914e5da,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
