@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 /**
-*      _..--""````""--.._
-*    .'       |\/|       '.
-*   /    /`._ |  | _.'\    \
-*  ;    /              \    |
-*  |   /                \   |
-*  ;  / .-.          .-. \  ;
-*   \ |/   \.-.  .-./   \| /
-*    '._       \/       _.'
-*       ''--..____..--''
-* 
-* el duque de alba se aparece en la avenida segunda ...
-*
-*@author Rolando<rolando@emptyart.xyz>
-*/
+ *      _..--""````""--.._
+ *    .'       |\/|       '.
+ *   /    /`._ |  | _.'\    \
+ *  ;    /              \    |
+ *  |   /                \   |
+ *  ;  / .-.          .-. \  ;
+ *   \ |/   \.-.  .-./   \| /
+ *    '._       \/       _.'
+ *       ''--..____..--''
+ * 
+ * El Duque de Alba se aparece en la avenida segunda ...
+ * 
+ *@author Rolando<rgarro@gmail.com>
+ */
 public class BatComputer : MonoBehaviour
 {
     public bool is_testable = true;
