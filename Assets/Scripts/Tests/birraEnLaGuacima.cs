@@ -24,6 +24,9 @@ namespace Tests
         [Test]
         public void birraEnLaGuacimaSimplePasses()
         {
+            BatComputer b = new BatComputer();
+            Debug.Log(b);
+            Assert.That(b.is_testable, Is.EqualTo(true));
             // Use the Assert class to test conditions
         }
 
