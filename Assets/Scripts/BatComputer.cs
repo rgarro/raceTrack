@@ -18,7 +18,7 @@ using UnityEngine;
  */
 public class BatComputer : MonoBehaviour
 {
-    public bool is_testable = true;
+    //public bool is_testable = true;
     // Start is called before the first frame update
     void Start()
     {

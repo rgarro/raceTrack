@@ -9,8 +9,8 @@ using UnityEngine.TestTools;
  *  o___________|_\__________/__|
  * ]|___     |  |=   ||  =|___  |"
  * //   \\    |  |____||_///   \\|"
- *|  X  |\--------------/|  X  |\"
- * \___/ 2019CakePHPbaker  \___/  
+ * |  X  |\--------------/|  X  |\"
+ *  \___/ 2019CakePHPbaker \___/  
  * 
  *
  *
@@ -18,26 +18,27 @@ using UnityEngine.TestTools;
  */
 namespace Tests
 {
-    public class birraEnLaGuacima
+    public class birraEnLaGuacimaTest
     {
         // A Test behaves as an ordinary method
         [Test]
-        public void birraEnLaGuacimaSimplePasses()
+        public void birraEnLaGuacimaTestSimplePasses()
         {
+            //GameObject tObj = new GameObject();
+            //BatComputer b = tObj.addComponent<BatComputer>();//new BatComputer();
             BatComputer b = new BatComputer();
-            Debug.Log(b);
+            //Debug.Log(b);
             Assert.That(b.is_testable, Is.EqualTo(true));
-            // Use the Assert class to test conditions
         }
 
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
         // `yield return null;` to skip a frame.
-        [UnityTest]
-        public IEnumerator birraEnLaGuacimaWithEnumeratorPasses()
+        //[UnityTest]
+       /* public IEnumerator birraEnLaGuacimaTestWithEnumeratorPasses()
         {
             // Use the Assert class to test conditions.
             // Use yield to skip a frame.
             yield return null;
-        }
+        }*/
     }
 }
