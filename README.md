@@ -2,7 +2,7 @@
 
 bearing in mind the kinematics four position theory
 
-camshaft sprocket is the detaClock of an engine
+camshaft sprocket is the deltaClock of an engine
 
 the flywheel bolt is the center point of the curve where the four positions coincides
 
